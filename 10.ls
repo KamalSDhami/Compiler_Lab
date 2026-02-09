@@ -3,8 +3,9 @@
 %}
 
 %%
-"/*"(.|\n)*"*/" { /* ignore Multi-line comments */ }
 [ \t]*"//".*  { /* ignore single-line comments */ }
+"/*"([^*]|\n|\*+[^*/])*\*+"/" {/* ignore Multi-line comments  Method1*/}
+"/*"([^*]|[*]+[^*/])*"*"+"/" {/* ignore Multi-line comments  Method2*/}
 .|\n          { fprintf(yyout, "%s", yytext); }
 %%
 
