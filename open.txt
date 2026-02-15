@@ -1,0 +1,2 @@
+Lex is a program that generats lexical analyzer it is used with YACC parser gerraotr. 
+The lexical analyzer is a program that transforms an input stream into a sequence of tokens.
