@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+</title>
+
+</head>
+
+<embed>
+
+<label>
+</label>
+
+<input type="email" list = "names">
+
+<datalist id = "names">
+
+<option value="jfakjfe@jkl">
+</option>
+
+<option value="jfakjfe@jkl">
+</option>
+
+<option value="jfakjfe@jkl">
+</option>
+
+</datalist>
+
+
+<header>
+
+<nav>
+
+<ul>
+
+<li>
+<a href="#">
+</a>
+</li>
+
+<li>
+<a href="#">
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+</embed>
+
+</b

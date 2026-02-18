@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags</title>
+</head>
+<embed>
+    <label>Email</label>
+    <input type="email" list = "names">
+    <datalist id = "names">
+        <option value="jfakjfe@jkl"></option>
+        <option value="jfakjfe@jkl"></option>
+        <option value="jfakjfe@jkl"></option>
+    </datalist>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <video height="250px" controls autoplay muted>
+            <source  src="https://maxus.ae/Static/images/model/PICKUP/t90/vdo/t90.mp4">
+        </video>
+        <article>
+            <p>This is hello in sanskrit:<bdi>सुप्रभातम्‌</bdi></p>
+        </article>
+        <embed width="600px" height="600px" src="https://s24.q4cdn.com/216390268/files/doc_downloads/test.pdf" ></main>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Profiles</a></li>
+        </ul>
+    </footer>
+</embed>
+</body>
+</html>
