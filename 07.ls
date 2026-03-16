@@ -5,6 +5,7 @@
 %%
 [ \t\n] {ch++; ws++;}
 [^ \t\n]+ {words++; ch+=yyleng;}
+.|\n    {ch++};
 %%
 
 int main(){

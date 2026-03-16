@@ -1,0 +1,28 @@
+identifier: HELLO
+
+String: "HELLO wORLD\N"
+
+Literals: 'h'
+
+keyword: int
+identifier: n
+constant: 18
+
+keyword: while
+constant: 1
+
+keyword: if
+identifier: n
+constant: 0
+
+identifier: break
+
+
+identifier: n
+
+identifier: printf
+String: "*"
+
+
+identifier: printf
+String: "Hello World\n"
