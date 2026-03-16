@@ -5,17 +5,15 @@
 
 %s A DEAD
 %%
-<INITIAL>a BEGIN A;
-<INITIAL>b BEGIN A;
+<INITIAL>[ab] BEGIN A;
+<INITIAL>\n {printf("Accepted\n");BEGIN INITIAL;}
+<INITIAL>[^ab\n] BEGIN DEAD;
 
-<A>a BEGIN INITIAL;
-<A>b BEGIN INITIAL;
+<A>[ab] BEGIN INITIAL;
+<A>\n   { printf("Rejected\n");BEGIN INITIAL; }
+<A>[^ab\n] BEGIN DEAD;;
 
-<INITIAL>[^a|b|\n] BEGIN DEAD;
-<A>[^a|b|\n] BEGIN DEAD;
-
-<DEAD>[.] BEGIN DEAD;
-<INITIAL>\n {printf("Accepted\n");};
+<DEAD>. {printf("Invalid");BEGIN INITIAL;};
 %%
 
 int main(){
