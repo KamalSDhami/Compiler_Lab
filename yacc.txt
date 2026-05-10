@@ -2,3 +2,6 @@ yacc filename | bison -d filename
 flex p1.l
 gcc lex.yy.c p2.tab.h 
 ./a.out
+
+
+bison -d exp.yc; flex exp.ls; g++ lex.yy.c exp.tab.cc -o exp_parser
